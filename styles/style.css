@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/BungeeSpice-Regular.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#header{
+    padding: 20px 0 20px 0;
+    background-color: #3f264d ;
+}
+#header h1{
+    font-family: "regular";
+    font-size: 400%;
+
+}
+#container{
+    display: flex;
+}
+
+#content{
+    background-color: #5d2747;
+    font-family: "regular";
+    width: 80%;
+}
+
+#content p{
+    font-size: 120%;
+}
+#eu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #000000;
+}
+
+#eu h2{
+    font-family: "regular";
+    text-align: center;
+
+}
+
+#eu p{
+    font-family: "regular";
+    text-align: center;
+}
+
+#eu img{
+    width: 66%;
+    border-radius: 50%;
+}
+
+#footer{
+    padding: 20px 0 20px 0;
+    background-color: #3f264d ;
+}
+
+#footer span{
+    font-family: "regular";
+}
+
+#footer p{
+    font-family: "regular";
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+    body {
+        /*background-color: #5d2747;*/
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #header h1 {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    #container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #content {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    #content h1 {
+        font-size:170%;
+    }
+    #eu img {
+
+    }
+
+    #content p {
+        font-size: 100%;
+    }
+    #eu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         
+    }
+    #footer {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #footer span {
+        font-size: 80%;
+    }
+
+}
